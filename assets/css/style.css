@@ -102,6 +102,12 @@ h4 {
     box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
 }
 
+.btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+
 /* Input fields */
 .form-control {
     padding-left: 10px;
