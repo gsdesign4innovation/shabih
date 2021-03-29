@@ -189,6 +189,67 @@ ul li ul li {
 } 
 
 </style>
+
+
+ <style>
+div.slide-right {
+  width:100%;
+ 
+}
+div.slide-right p {
+  animation: 2s slide-right;
+}
+div.slide-right h2 {
+  animation: 2s slide-right;
+}
+div.slide-right h3 {
+  animation: 2s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 100%; 
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+</style>
+
+
+
+ <style>
+div.slide-rightt {
+  width:20%;
+ 
+}
+div.slide-rightt .btn-fill {
+  animation: 2s slide-right;
+}
+@keyframes slide-rightt {
+  from {
+    margin-left: -200%;
+    width: 100%; 
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- /#header -->
 
@@ -197,16 +258,20 @@ ul li ul li {
             <div class="row">
 
                 <div class="col-md-6">
-                    <h1>I'm Shabih Ali</h1>
+                    <div class="slide-right">
+                    <h2 style="font-weight: bold;">I'm Shabih Ali</h2></div>
                     <div class="page-scroll">
-                        <h3 class="job-title">
+                        <div class="slide-right"><h3 class="job-title">
   <a href="" class="typewrite" data-period="2000" data-type='[ "UX Designer.", "Interaction Designer.", "Communication Designer." ]'>
     <span class="wrap"></span>
   </a>
-</h3>
-                        <a href="#contact" class="btn btn-fill ">Hire me</a>
+</h3></div>
+<div class="slide-right">
+<p style="color: grey; font-size: 16px; font-family: 'Poppins';">I am a trained Designer with a focused on research and identifying a problem through the UX process. I Iike being involved in innovation and human-centric design. My aim is to design products which users would loves to use product physically, mentally and emotionally.</p></div>
+                        <div class="slide-rightt">
+                        <a href="#contact" class="btn btn-fill">My CV</a></div>
                         <div class="clearfix visible-xxs"></div>
-                        <a href="#portfolio" class="btn btn-border">Explore more</a>
+                        <!--<a href="#portfolio" class="btn btn-border">My CV</a>-->
                     </div>
                 </div>
             
@@ -220,19 +285,20 @@ ul li ul li {
 
     <main id="main" class="site-main">
 
+<!-- Commentting down the about section Started here
         <section id="about" class="site-section section-about text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
                         <h2 style="color: #001a58;">About</h2>
-                        <img src="https://dl.dropbox.com/s/y9d46d0dif4493a/lines.svg?dl=0" class="img-lines" alt="lines" style="width: 60px;">
+                        <img src="https://dl.dropbox.com/s/y9d46d0dif4493a/lines.svg?dl=0" class="img-lines" alt="lines" style="width: 60px;">-->
                         <!--<img src="assets/img/lines.svg" class="img-lines" alt="lines">-->
-                        <p style="color: grey;">I'm Shabih Ali,  a UX Designer designer born in Patna, studying from Nift Mumbai. I am a trained Designer with a focused on research and identifying a problem through the UX process. I Iike being involved in innovation and human-centric design. My aim is to design products which  users would loves to use product physically, mentally and emotionally.</p>
+                        <!--<p style="color: grey; padding-left: -250px; padding-right: -250px;">I'm Shabih Ali, a UX Designer designer born in Patna, studying from Nift Mumbai. I am a trained Designer with a focused on research and identifying a problem through the UX process. I Iike being involved in innovation and human-centric design. My aim is to design products which  users would loves to use product physically, mentally and emotionally.</p>
                         <a href="https://drive.google.com/file/d/1Il20BQmpYM92QExQuMexkfd68ypgfOsV/view?usp=sharing" class="btn btn-fill" target="_blank" download>My CV</a>
                     </div>
                 </div>
             </div>
-        </section><!-- /.secton-about --><br><br>
+        </section>--><!--ended here about comenting--> <!-- /.secton-about --><br><br>
 
         <!--<section class="site-section section-skills">
             <div class="container">
@@ -287,38 +353,38 @@ ul li ul li {
             </div>
         </section>--><!-- /.secton-skills -->
 
-        <section id="service" class="site-section section-services overlay text-center">
+        <!--<section id="service" class="site-section section-services overlay text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h3 style="color: #001a58;">What I do</h3>
                         <img src="https://dl.dropbox.com/s/y9d46d0dif4493a/lines.svg?dl=0" class="img-lines" alt="lines" style="width: 60px;">
-                        <!--<img src="assets/img/lines.svg" class="img-lines" alt="lines">-->
+                       
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="assets/img/front-end.svg" alt="Front End Developer">
                             <h4>User Experience</h4>
                             <p style="color: grey;">Conduct user research and testing. Developing wireframes and task flows based on user needs. Collaborate with Developers to create intuitive, user-friendly software.</p>
-                        </div><!-- /.service -->
+                        </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="assets/img/back-end.svg" alt="Back End Developer">
                             <h4>Design Strategy</h4>
                             <p style="color: grey;">Understand the business needs of the customer and aligning the design and design process around those business needs. Each step of the design process and map to the goals and outcomes of the business problem that needs to be solved.</p>
-                        </div><!-- /.service -->
+                        </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="assets/img/consultancy.svg" alt="Coding">
                             <h4>Interaction Design</h4>
                             <p style="color: grey;">Focus on creating engaging web interfaces with logical and thought out behaviors and actions. Successful interactive design uses technology and principles of good communication to create desired user experiences.</p>
-                        </div><!-- /.service -->
+                        </div>
                     </div>
                 </div>
             </div>
-        </section><!-- /.secton-services -->
+        </section>--><!-- /.secton-services -->
 
         <section id="portfolio" class="site-section section-portfolio">
             <div class="container">
@@ -349,7 +415,7 @@ ul li ul li {
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>-->
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
-                    </div></a>
+                    </a></div>
                     <a href="https://docs.google.com/presentation/d/1uPRt5nHwar5WY2tXukU2Cgg5s8BFLJ8HVjkQSv6JgB0/edit?usp=sharing" target="_blank"><div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
                             <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
@@ -360,19 +426,51 @@ ul li ul li {
                            
 	 </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
-                    </div></a>
+                    </a></div>
 
-                    <a href="https://docs.google.com/presentation/d/1wg5esyMpUI8hTnv2QKaSD9SHiqFue2kvyMUfHprG89Y/edit?usp=sharing" target="_blank"><div class="col-md-4 col-xs-6">
+
+
+                    <a href="https://docs.google.com/presentation/d/1MnLnrTL16psykY4Fwn3iO_KzPkB3-zlu1B6Ce2AoK_g/edit?usp=sharing" target="_blank"><div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="https://dl.dropbox.com/s/dmjk2myor0amlsw/cover%20image%20of%20ui%20ux%20%281%29.jpg?dl=0" class="img-res" alt="">
-                            <!--<img src="assets/img/portfolio-3.jpg" class="img-res" alt="">-->
+                            <img src="https://dl.dropbox.com/s/qpi8bhf80znesbw/AI%20Car%20Experience%20Design%20new%20%281%29.png?dl=0" class="img-res" alt="">
+                            <!--<img src="assets/img/portfolio-1.jpg" class="img-res" alt="">-->
                             <div class="portfolio-item-info">
-                                <h4>Restaurant Website</h4>
-                                <!--<a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <h4>AI Car Experience Design</h4>
+                                <!--<a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="http://www.google.com"><span class="glyphicon glyphicon-link"></span></a>-->
+                            </div><!-- /.portfolio-item-info -->
+                        </div></a><!-- /.portfolio-item -->
+                    </div>
+                    <a href="https://docs.google.com/presentation/d/1b3cRewdf91JxMvFgHhg4eCOwG_ZNvLtaIsWinMgs9n4/edit?usp=sharing" target="_blank"><div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://dl.dropbox.com/s/yrwcn4r995d1bjy/cover%20image%20of%20panja%20dhurrie%20%282%29.jpg?dl=0" class="img-res" alt="">
+                            <!--<img src="assets/img/portfolio-4.jpg" class="img-res" alt="">-->
+                            <div class="portfolio-item-info">
+                                <h4>Panja Dhurrie Website</h4>
+                                <!--<a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>-->
                             </div><!-- /.portfolio-item-info -->
                         </div><!-- /.portfolio-item -->
-                    </div></a>
+                    </a></div>
+                    <a href="https://docs.google.com/presentation/d/1uPRt5nHwar5WY2tXukU2Cgg5s8BFLJ8HVjkQSv6JgB0/edit?usp=sharing" target="_blank"><div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Redesign of Whatsapp</h4>
+                                <!--<a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://docs.google.com/presentation/d/1uPRt5nHwar5WY2tXukU2Cgg5s8BFLJ8HVjkQSv6JgB0/edit?usp=sharing" target="_blank"><span class="glyphicon glyphicon-link"></span></a>-->
+                           
+     </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </a></div>
+
+
+
+
+
+                   
+
+                    
                     
                     <!--<div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
