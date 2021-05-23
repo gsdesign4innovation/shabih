@@ -430,11 +430,11 @@ background: rgba(0, 0, 0, 0.4);
     border: 1px solid #fff;
     border-radius: 50px;
     color: #fff;
-    /*transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
     -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
-    -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;*/
+    -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
 .portfolio-item-info a:hover {
