@@ -397,7 +397,7 @@ background: rgba(0, 0, 0, 0.4);
 }
 
 .portfolio-item:hover:before{
-    background-color: rgba(33,33,33,0.6);
+    /*background-color: rgba(33,33,33,0.6);*/
 }
 
 .portfolio-item-info {
@@ -414,8 +414,8 @@ background: rgba(0, 0, 0, 0.4);
 }
 
 .portfolio-item:hover .portfolio-item-info {
-    left: 50px;
-    opacity: 1;
+    /*left: 50px;
+    opacity: 1;*/
 }
 
 .portfolio-item-info h4 {
